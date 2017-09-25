@@ -1,6 +1,6 @@
-# y
+# My First Vue
 
-> y
+> 원칙적으로 한 Component에는 하나의 DIV밖에 사용하지 못한다.
 
 ## Build Setup
 
