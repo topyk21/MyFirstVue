@@ -1,6 +1,20 @@
+# ES6(ES2015)
+
+> https://standardjs.com/rules-kokr.html 참고
+> Browser support: ES5에 비해 떨어지나, ES6 Coding 후 babel을 통해 ES5로 변환하여 출시 가능
+> Scope: 선언시 const를 기본으로 사용한다. 변경 가능한 변수는 let을 사용하고, var는 사용하지 않는다(사용 자제)
+>        const를 사용하더라도, 배열과 오브젝트의 값을 변경하는 것은 가능하다.(재할당은 가능)
+>        immutable array는 list 원형을 유지하되, 필요시 새 변수를 선언하여 concat등으로 할당할 것
+>
+> String : startsWith, endsWith, includes가 standard로 들어옴
+> Array : from, Spread operator(...array)와 일반 할당의 차이 숙지, 활용법 터득 필요ㅣ
+> Obejct : 발전된 Getter, Setter, Function return 문법
+>
+
 # My First Vue
 
-> 원칙적으로 한 Component에는 하나의 DIV밖에 사용하지 못한다.
+> Component 단위 Coding : 원칙적으로 한 Component에는 하나의 div 밖에 사용하지 못한다.(복수 div가 가능케 할 수는 있음)
+>
 
 ## Build Setup
 
